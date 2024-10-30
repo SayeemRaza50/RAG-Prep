@@ -1,0 +1,43 @@
+2024-10-30 00:47:10,855 INFO Loading FAISS vector store...
+2024-10-30 00:47:15,236 INFO Loading FAISS vector store...
+2024-10-30 00:47:18,512 INFO Loading FAISS vector store...
+2024-10-30 00:47:18,720 INFO Use pytorch device_name: cpu
+2024-10-30 00:47:18,722 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-30 00:47:18,722 INFO Use pytorch device_name: cpu
+2024-10-30 00:47:18,723 INFO Use pytorch device_name: cpu
+2024-10-30 00:47:18,723 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-30 00:47:18,724 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-30 00:47:23,574 INFO Loading FAISS vector store...
+2024-10-30 00:47:23,578 INFO Use pytorch device_name: cpu
+2024-10-30 00:47:23,579 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-30 00:47:25,472 INFO Loading FAISS vector store...
+2024-10-30 00:47:25,476 INFO Use pytorch device_name: cpu
+2024-10-30 00:47:25,477 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-30 00:48:45,995 ERROR Error loading FAISS vector store: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.).
+2024-10-30 00:48:46,010 ERROR Error loading FAISS vector store: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.).
+2024-10-30 00:48:46,508 ERROR Error loading FAISS vector store: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.).
+2024-10-30 00:48:46,517 ERROR Error loading FAISS vector store: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.).
+2024-10-30 00:48:46,533 ERROR Error loading FAISS vector store: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.).
+2024-10-30 00:55:29,285 INFO Loading FAISS vector store...
+2024-10-30 00:55:29,290 INFO Use pytorch device_name: cpu
+2024-10-30 00:55:29,290 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-30 00:56:27,995 INFO Loading FAISS vector store...
+2024-10-30 00:56:28,001 INFO Use pytorch device_name: cpu
+2024-10-30 00:56:28,002 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-30 00:57:39,133 INFO Loading FAISS vector store...
+2024-10-30 00:57:46,364 INFO Use pytorch device_name: cpu
+2024-10-30 00:57:46,365 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-30 00:59:03,549 INFO Loading FAISS vector store...
+2024-10-30 00:59:09,449 INFO Use pytorch device_name: cpu
+2024-10-30 00:59:09,449 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-30 01:00:32,173 INFO Loading FAISS vector store...
+2024-10-30 01:00:32,178 INFO Use pytorch device_name: cpu
+2024-10-30 01:00:32,178 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-30 01:00:38,207 INFO Loading faiss with AVX512 support.
+2024-10-30 01:00:38,239 INFO Successfully loaded faiss with AVX512 support.
+2024-10-30 01:02:46,887 INFO Loading FAISS vector store...
+2024-10-30 01:02:46,894 INFO Use pytorch device_name: cpu
+2024-10-30 01:02:46,895 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-30 01:07:01,629 INFO Loading FAISS vector store...
+2024-10-30 01:07:01,634 INFO Use pytorch device_name: cpu
+2024-10-30 01:07:01,635 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2

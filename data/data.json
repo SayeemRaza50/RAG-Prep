@@ -1,0 +1,322 @@
+[
+    {
+      "id": 1,
+      "title": "Introduction to Data Science",
+      "content": "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data.",
+      "metadata": {
+        "author": "Jane Doe",
+        "tags": ["data science", "machine learning"]
+      },
+      "created_at": "2023-10-01T12:34:56Z"
+    },
+    {
+      "id": 2,
+      "title": "Advanced Python Programming",
+      "content": "Python is a versatile programming language that is widely used in various fields, from web development to data analysis.",
+      "metadata": {
+        "author": "John Smith",
+        "tags": ["python", "programming"]
+      },
+      "created_at": "2023-10-05T08:20:30Z"
+    },
+    {
+      "id": 3,
+      "title": "Machine Learning Basics",
+      "content": "Machine learning involves computers learning from data without being explicitly programmed.",
+      "metadata": {
+        "author": "Alice Johnson",
+        "tags": ["machine learning", "artificial intelligence"]
+      },
+      "created_at": "2023-10-10T09:15:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Deep Learning Explained",
+      "content": "Deep learning is a subset of machine learning involving neural networks with many layers.",
+      "metadata": {
+        "author": "Bob Williams",
+        "tags": ["deep learning", "neural networks"]
+      },
+      "created_at": "2023-10-12T14:22:45Z"
+    },
+    {
+      "id": 5,
+      "title": "Understanding Natural Language Processing",
+      "content": "Natural Language Processing (NLP) enables computers to understand, interpret, and generate human language.",
+      "metadata": {
+        "author": "Carol Martinez",
+        "tags": ["NLP", "computational linguistics"]
+      },
+      "created_at": "2023-10-15T11:05:30Z"
+    },
+    {
+      "id": 6,
+      "title": "Data Visualization Techniques",
+      "content": "Effective data visualization helps in communicating data insights through graphical representations.",
+      "metadata": {
+        "author": "David Brown",
+        "tags": ["data visualization", "analytics"]
+      },
+      "created_at": "2023-10-18T16:45:10Z"
+    },
+    {
+      "id": 7,
+      "title": "An Introduction to Big Data",
+      "content": "Big Data refers to datasets that are so large or complex that traditional data processing applications are inadequate.",
+      "metadata": {
+        "author": "Emily Davis",
+        "tags": ["big data", "data processing"]
+      },
+      "created_at": "2023-10-20T13:30:00Z"
+    },
+    {
+      "id": 8,
+      "title": "Cloud Computing Fundamentals",
+      "content": "Cloud computing is the delivery of computing services over the internet.",
+      "metadata": {
+        "author": "Frank Miller",
+        "tags": ["cloud computing", "IT infrastructure"]
+      },
+      "created_at": "2023-10-22T10:15:20Z"
+    },
+    {
+      "id": 9,
+      "title": "Cybersecurity Essentials",
+      "content": "Cybersecurity involves protecting computer systems and networks from information disclosure, theft, or damage.",
+      "metadata": {
+        "author": "Grace Wilson",
+        "tags": ["cybersecurity", "network security"]
+      },
+      "created_at": "2023-10-25T17:50:05Z"
+    },
+    {
+      "id": 10,
+      "title": "Blockchain Technology Overview",
+      "content": "Blockchain is a decentralized ledger technology that ensures data integrity through cryptographic hashing.",
+      "metadata": {
+        "author": "Henry Moore",
+        "tags": ["blockchain", "cryptography"]
+      },
+      "created_at": "2023-10-28T08:40:55Z"
+    },
+    {
+      "id": 11,
+      "title": "Introduction to Internet of Things (IoT)",
+      "content": "IoT refers to the network of physical objects embedded with sensors and software for data exchange.",
+      "metadata": {
+        "author": "Isabella Taylor",
+        "tags": ["IoT", "embedded systems"]
+      },
+      "created_at": "2023-11-01T12:00:00Z"
+    },
+    {
+      "id": 12,
+      "title": "Basics of Artificial Intelligence",
+      "content": "Artificial Intelligence enables machines to mimic human intelligence processes.",
+      "metadata": {
+        "author": "Jack Anderson",
+        "tags": ["AI", "machine learning"]
+      },
+      "created_at": "2023-11-03T15:25:30Z"
+    },
+    {
+      "id": 13,
+      "title": "Understanding SQL Databases",
+      "content": "Structured Query Language (SQL) is used for managing data held in relational databases.",
+      "metadata": {
+        "author": "Karen Thomas",
+        "tags": ["SQL", "databases"]
+      },
+      "created_at": "2023-11-05T09:10:45Z"
+    },
+    {
+      "id": 14,
+      "title": "NoSQL Databases Explained",
+      "content": "NoSQL databases provide a mechanism for storage and retrieval of data modeled in means other than tabular relations.",
+      "metadata": {
+        "author": "Larry Jackson",
+        "tags": ["NoSQL", "databases"]
+      },
+      "created_at": "2023-11-07T18:35:20Z"
+    },
+    {
+      "id": 15,
+      "title": "Getting Started with Data Mining",
+      "content": "Data mining is the process of discovering patterns in large data sets.",
+      "metadata": {
+        "author": "Megan White",
+        "tags": ["data mining", "data analysis"]
+      },
+      "created_at": "2023-11-10T11:55:05Z"
+    },
+    {
+      "id": 16,
+      "title": "Principles of Software Engineering",
+      "content": "Software engineering involves the application of engineering principles to software development.",
+      "metadata": {
+        "author": "Nathan Harris",
+        "tags": ["software engineering", "development"]
+      },
+      "created_at": "2023-11-12T14:05:50Z"
+    },
+    {
+      "id": 17,
+      "title": "Introduction to DevOps",
+      "content": "DevOps combines software development and IT operations to shorten the systems development life cycle.",
+      "metadata": {
+        "author": "Olivia Martin",
+        "tags": ["DevOps", "software development"]
+      },
+      "created_at": "2023-11-15T16:25:30Z"
+    },
+    {
+      "id": 18,
+      "title": "Agile Methodologies in Project Management",
+      "content": "Agile methodologies focus on iterative development and customer collaboration.",
+      "metadata": {
+        "author": "Patrick Lee",
+        "tags": ["Agile", "project management"]
+      },
+      "created_at": "2023-11-17T09:45:15Z"
+    },
+    {
+      "id": 19,
+      "title": "Understanding Data Structures",
+      "content": "Data structures are ways of organizing and storing data for efficient access and modification.",
+      "metadata": {
+        "author": "Quincy Clark",
+        "tags": ["data structures", "algorithms"]
+      },
+      "created_at": "2023-11-20T13:15:40Z"
+    },
+    {
+      "id": 20,
+      "title": "Algorithms and Complexity",
+      "content": "An algorithm is a step-by-step procedure for calculations, data processing, and automated reasoning.",
+      "metadata": {
+        "author": "Rachel Lewis",
+        "tags": ["algorithms", "complexity"]
+      },
+      "created_at": "2023-11-22T10:05:25Z"
+    },
+    {
+      "id": 21,
+      "title": "Introduction to Quantum Computing",
+      "content": "Quantum computing uses quantum bits or qubits, exploiting quantum phenomena to perform computations.",
+      "metadata": {
+        "author": "Samuel Walker",
+        "tags": ["quantum computing", "qubits"]
+      },
+      "created_at": "2023-11-25T17:40:00Z"
+    },
+    {
+      "id": 22,
+      "title": "Basics of Computer Networks",
+      "content": "Computer networks consist of interconnected computing devices that share data and resources.",
+      "metadata": {
+        "author": "Tiffany Hall",
+        "tags": ["computer networks", "communication"]
+      },
+      "created_at": "2023-11-27T08:55:35Z"
+    },
+    {
+      "id": 23,
+      "title": "Operating Systems Fundamentals",
+      "content": "An operating system is system software that manages computer hardware and software resources.",
+      "metadata": {
+        "author": "Ulysses Young",
+        "tags": ["operating systems", "system software"]
+      },
+      "created_at": "2023-11-30T12:20:10Z"
+    },
+    {
+      "id": 24,
+      "title": "Guide to Responsive Web Design",
+      "content": "Responsive web design makes web pages render well on a variety of devices and window or screen sizes.",
+      "metadata": {
+        "author": "Victoria King",
+        "tags": ["web design", "responsive design"]
+      },
+      "created_at": "2023-12-02T15:30:45Z"
+    },
+    {
+      "id": 25,
+      "title": "Introduction to Computer Graphics",
+      "content": "Computer graphics deals with generating images with the aid of computers.",
+      "metadata": {
+        "author": "William Scott",
+        "tags": ["computer graphics", "visualization"]
+      },
+      "created_at": "2023-12-05T09:15:55Z"
+    },
+    {
+      "id": 26,
+      "title": "Understanding Human-Computer Interaction",
+      "content": "Human-Computer Interaction (HCI) studies the design and use of computer technology, focusing on the interfaces between people and computers.",
+      "metadata": {
+        "author": "Xavier Adams",
+        "tags": ["HCI", "user interfaces"]
+      },
+      "created_at": "2023-12-07T13:45:20Z"
+    },
+    {
+      "id": 27,
+      "title": "Basics of Ethical Hacking",
+      "content": "Ethical hacking involves legally breaking into computers and devices to test an organization's defenses.",
+      "metadata": {
+        "author": "Yasmine Perez",
+        "tags": ["ethical hacking", "security"]
+      },
+      "created_at": "2023-12-10T11:05:00Z"
+    },
+    {
+      "id": 28,
+      "title": "Mobile Application Development",
+      "content": "Mobile app development is the act of creating software applications that run on mobile devices.",
+      "metadata": {
+        "author": "Zachary Rivera",
+        "tags": ["mobile development", "apps"]
+      },
+      "created_at": "2023-12-12T16:25:45Z"
+    },
+    {
+      "id": 29,
+      "title": "Basics of Virtual Reality",
+      "content": "Virtual Reality (VR) is a simulated experience that can be similar to or completely different from the real world.",
+      "metadata": {
+        "author": "Amy Baker",
+        "tags": ["virtual reality", "VR"]
+      },
+      "created_at": "2023-12-15T14:35:10Z"
+    },
+    {
+      "id": 30,
+      "title": "Augmented Reality Explained",
+      "content": "Augmented Reality (AR) overlays digital content onto the real world.",
+      "metadata": {
+        "author": "Brian Cooper",
+        "tags": ["augmented reality", "AR"]
+      },
+      "created_at": "2023-12-17T10:50:55Z"
+    },
+    {
+      "id": 31,
+      "title": "Introduction to 5G Technology",
+      "content": "5G is the fifth generation mobile network that promises faster speeds and more reliable connections.",
+      "metadata": {
+        "author": "Catherine Edwards",
+        "tags": ["5G", "mobile networks"]
+      },
+      "created_at": "2023-12-20T12:15:30Z"
+    },
+    {
+      "id": 32,
+      "title": "Edge Computing Fundamentals",
+      "content": "Edge computing brings computation and data storage closer to the sources of data.",
+      "metadata": {
+        "author": "Daniel Foster",
+        "tags": ["edge computing", "distributed systems"]
+      },
+      "created_at": "2023-12-22T09:05:20Z"
+    }
+  ]  
