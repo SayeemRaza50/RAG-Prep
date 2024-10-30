@@ -16,7 +16,7 @@ def main():
     embeddings_model = initialize_embeddings_model()
     contents = [item['content'] for item in processed_data]
     embeddings = vectorize_content(embeddings_model, contents)
-    store_embeddings(embeddings, embeddings_model, processed_data)
+    store_embeddings(embeddings_model, processed_data)
 
     logger.info('Pipeline execution completed.')
 

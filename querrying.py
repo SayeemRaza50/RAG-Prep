@@ -72,16 +72,19 @@ def get_similar_articles(text, retriever, article_dict):
 def generate_summary(context):
     openai.api_key = OPENAI_API_KEY
     try:
-        response = openai.Completion.create(
-            engine='text-davinci-003',
-            prompt=f"Summarize the following content:\n\n{context}",
-            max_tokens=150
+        response = openai.ChatCompletion.create(
+            model='gpt-4o',  
+            messages=[
+                {"role": "user", "content": f"Summarize the following content:\n\n{context}"}
+            ],
+            max_tokens=150,
+            temperature=0.7
         )
-        summary = response.choices[0].text.strip()
+        summary = response.choices[0].message['content'].strip()
         return summary
     except Exception as e:
         logger.error(f'Error generating summary: {e}')
-        return "An error occurred while generating the summary."
+        return f"Error generating summary: {e}"
 
 def generate_summaries(contexts):
     logger.info('Generating summaries...')

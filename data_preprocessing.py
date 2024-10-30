@@ -52,9 +52,14 @@ def preprocess_data(data):
 def insert_data(processed_data):
     logger.info('Inserting data into the database...')
     session = get_session()
-    articles = []
-    for item in processed_data:
-        try:
+    try:
+        # Clear existing data
+        session.query(Article).delete()
+        session.commit()
+
+        # Insert new data
+        articles = []
+        for item in processed_data:
             article = Article(
                 id=item['id'],
                 title=item['title'],
@@ -64,11 +69,7 @@ def insert_data(processed_data):
                 created_at=item['created_at']
             )
             articles.append(article)
-        except Exception as e:
-            logger.error(f'Error creating Article object for ID {item["id"]}: {e}')
-            continue
 
-    try:
         session.bulk_save_objects(articles)
         session.commit()
         logger.info('Data inserted into the database.')
@@ -78,3 +79,4 @@ def insert_data(processed_data):
         raise
     finally:
         session.close()
+
