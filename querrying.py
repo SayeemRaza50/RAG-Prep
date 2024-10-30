@@ -15,23 +15,19 @@ def load_vector_store():
     logger.info('Loading FAISS vector store...')
     embeddings_model = HuggingFaceEmbeddings(model_name=EMBEDDINGS_MODEL_NAME)
 
-    # Paths to index and metadata files
     index_dir = 'faiss_index'
     index_path = os.path.join(index_dir, 'index.faiss')
     docstore_path = os.path.join(index_dir, 'docstore.pkl')
     index_to_docstore_id_path = os.path.join(index_dir, 'index_to_docstore_id.pkl')
 
-    # Load FAISS index
     index = faiss.read_index(index_path)
 
-    # Load metadata
     with open(docstore_path, 'rb') as f:
         docstore = pickle.load(f)
 
     with open(index_to_docstore_id_path, 'rb') as f:
         index_to_docstore_id = pickle.load(f)
 
-    # Create FAISS vector store
     vector_store = FAISS(
         embedding_function=embeddings_model,
         index=index,

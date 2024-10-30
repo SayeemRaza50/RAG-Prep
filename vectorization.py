@@ -52,19 +52,15 @@ def store_embeddings(embeddings_model, processed_data):
             )
             documents.append(doc)
 
-        # Create FAISS vector store
         vector_store = FAISS.from_documents(documents, embeddings_model)
 
-        # Ensure the 'faiss_index' directory exists
         index_dir = 'faiss_index'
         if not os.path.exists(index_dir):
             os.makedirs(index_dir)
 
-        # Save FAISS index
         index_path = os.path.join(index_dir, 'index.faiss')
         faiss.write_index(vector_store.index, index_path)
 
-        # Save metadata
         docstore_path = os.path.join(index_dir, 'docstore.pkl')
         with open(docstore_path, 'wb') as f:
             pickle.dump(vector_store.docstore, f)

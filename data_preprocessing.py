@@ -8,9 +8,9 @@ logger = setup_logging()
 def clean_text(text):
     if not text:
         return ''
-    text = re.sub(r'<.*?>', '', text)  # Remove HTML tags
-    text = re.sub(r'[^A-Za-z0-9\s]', '', text)  # Remove special characters
-    text = ' '.join(text.split())  # Normalize whitespace
+    text = re.sub(r'<.*?>', '', text)  
+    text = re.sub(r'[^A-Za-z0-9\s]', '', text) 
+    text = ' '.join(text.split())  
     return text
 
 def preprocess_data(data):
@@ -53,11 +53,9 @@ def insert_data(processed_data):
     logger.info('Inserting data into the database...')
     session = get_session()
     try:
-        # Clear existing data
         session.query(Article).delete()
         session.commit()
 
-        # Insert new data
         articles = []
         for item in processed_data:
             article = Article(
